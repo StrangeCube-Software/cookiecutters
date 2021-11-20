@@ -6,6 +6,6 @@
 
 ### Install
 
-```shell
+```sh
 cookiecutter gh:StrangeCube-Software/cookiecutters --directory="python"
 ```
