@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "{{cookiecutter.project_slug}}"
+version = "{{ cookiecutter.version }}"
+description = "{{ cookiecutter.project_short_description }}"
+authors = ["{{ cookiecutter.github_username }} <{{ cookiecutter.email }}>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+autoflake = "^1.4"
+black = "^21.9b0"
+flake8 = "^4.0.1"
+flake8-annotations = "^2.7.0"
+flake8-bugbear = "^21.9.2"
+flake8-comprehensions = "^3.7.0"
+ipython = "^7.29.0"
+mypy = "^0.910"
+pre-commit = "^2.15.0"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
